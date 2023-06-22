@@ -1,0 +1,155 @@
+body {
+  background: radial-gradient(100% 316.05% at 0% 0%, #ffffff 0%, #f7f7f7 100%);
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.side-img {
+  width: 30%;
+  height: 100%;
+  background: radial-gradient(
+    111.55% 87.41% at 100% 87.41%,
+    #d8f4f5 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  position: relative;
+}
+.clouds {
+  width: 30vw;
+  height: auto;
+  position: absolute;
+  top: 20vh;
+  z-index: -2;
+}
+.planes {
+  width: 20vw;
+  height: auto;
+  position: absolute;
+  top: 50vh;
+  transform: translateY(-50%);
+  left: 5vw;
+  z-index: -1;
+}
+.social-handles {
+  position: absolute;
+  bottom: 30px;
+  width: 30vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.twitter,
+.linkedin,
+.github {
+  background-color: #232023;
+  width: 3vw;
+  height: auto;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.form-area {
+  width: 60%;
+  /* background: red; */
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.form-head {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+.form-head > b {
+  font-weight: 700;
+}
+.contact-form {
+  width: 80%;
+  height: 73%;
+  overflow-x: visible;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  gap: 2px;
+  padding: 0;
+  padding-bottom: 2%;
+  /* background-color: blue; */
+}
+.name {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 95%;
+}
+.first-name,
+.last-name,
+.email {
+  height: 2.5rem;
+  border-radius: 2px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.first-name,
+.last-name {
+  width: 40%;
+}
+.email {
+  width: 95%;
+}
+.first-name > img,
+.last-name > img,
+.email > img {
+  height: 2rem;
+  width: auto;
+  max-width: 20%;
+}
+.first-name > input,
+.last-name > input,
+.email > input {
+  height: 2rem;
+  width: 80%;
+  font-size: 1rem;
+  padding-left: 2.5px;
+}
+.email > input {
+  padding-left: 5px;
+}
+.message {
+  height: 10rem;
+  width: 95%;
+  border-radius: 2px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background: #fff;
+  font-size: 1rem;
+  padding-left: 5px;
+}
+.send {
+  width: calc(95% + 5px);
+  height: 2.5rem;
+  background: #232023;
+  color: #fff;
+  border-radius: 2px;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
