@@ -3,41 +3,41 @@
 @import url("https://fonts.googleapis.com/css2?family=Alice&display=swap");
 
 *::-webkit-scrollbar {
-  display: none;
+	display: none;
 }
 * {
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 400;
+	font-family: "Poppins", sans-serif;
+	font-style: normal;
+	font-weight: 400;
 }
 a {
-  color: black;
-  text-decoration: none;
+	color: black;
+	text-decoration: none;
 }
 input,
 textarea {
-  border: none;
-  outline: none;
-  background: #ffffff;
-  resize: none;
-  padding: 0;
+	border: none;
+	outline: none;
+	background: #ffffff;
+	resize: none;
+	padding: 0;
 }
 input:focus,
 textarea:focus {
-  outline: none;
+	outline: none;
 }
 input:-webkit-autofill,
 input:-webkit-autofill:hover,
 input:-webkit-autofill:focus,
 input:-webkit-autofill:active {
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: #000000;
-  transition: background-color 5000s ease-in-out 0s;
-  box-shadow: none;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: #000000;
+	transition: background-color 5000s ease-in-out 0s;
+	box-shadow: none;
 }
 form {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
 }
