@@ -5,16 +5,20 @@ document.getElementsByClassName("submit-btn")[0].addEventListener("click", () =>
 	formSubmit();
 });
 
+function processBody(body) {
+	return body;
+}
+
 function formSubmit() {
-	console.log("formSubmit");
 	let titleFeild = document.getElementsByClassName("blog-title")[0];
 	let contentFeild = document.getElementsByClassName("description-text")[0];
+
+	let processedBody = processBody(contentFeild.value);
 
 	let Blog = {
 		imgURL: "...",
 		title: titleFeild.value,
-		body: contentFeild.value,
-		isText: true,
+		body: processedBody,
 		user: "...",
 		likes: 0,
 		views: 0,

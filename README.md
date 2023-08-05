@@ -4,3 +4,5 @@
 
 - fix the editor scrolling text area
 - image handling
+- process text
+- register page
